@@ -48,7 +48,9 @@
 <%= render :file => 'comments/new' %>
       
 <script>
-  jQuery(document).ready(function($){
-    alert("test");
+    jQuery(document).ready(function($){
+      $("#email_identify").click(function() {
+         $("#notify_friend_form").toggle();
+    });
   });
 </script>

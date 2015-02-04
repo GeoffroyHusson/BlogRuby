@@ -1,3 +1,2 @@
-Notifier#email_friend
-
-<%= @greeting %>, find me in app/views/notifier/email_friend.text.erb
+Ton ami <% sender_name %> t'envoie le lien d'un article
+<%= @article_title %>: <%= @article_url(@article, :host => "localhost:3000") %>

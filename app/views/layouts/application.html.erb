@@ -3,12 +3,13 @@
 <head>
   <title>Blog</title>
   <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
+  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tag %>
 </head>
 <body>
   <div id="header">
-    <h1><%= link_to "Blog", root_path %></h1>
+    <h1><%= link_to "Blog hello ", root_path %></h1>
+    <p><%= flash[:notice] %></p>
     <div id="user_bar">
       <% if logged_in? %>
         <%= link_to "New Article", new_article_path %> |

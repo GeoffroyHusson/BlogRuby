@@ -1,4 +1,9 @@
 class ApplicationController < ActionController::Base
+      before_action :set_locale
+
+  def set_locale
+     I18n.locale = params[:locale] || I18n.default_locale
+  end
   protect_from_forgery
   protected 
     # Returns the currently logged in user or nil if there isn't one

@@ -4,6 +4,7 @@ class ArticlesController < ApplicationController
   before_filter :authenticate, :excerpt =>[:index, :show, :notify_friend]
 
   def index
+    flash[:notice] = "Hello Flash"
     @articles = Article.all
 
     respond_to do |format|
@@ -42,7 +43,7 @@ class ArticlesController < ApplicationController
   # POST /articles
   # POST /articles.xml
   def create
-    @article = current_user.articles.new(params[:article])
+    @article = current_user.articles.new(article_params)
 
     respond_to do |format|
       if @article.save
