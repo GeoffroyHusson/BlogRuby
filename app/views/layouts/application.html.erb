@@ -8,7 +8,7 @@
 </head>
 <body>
   <div id="header">
-    <h1><%= link_to "Blog hello ", root_path %></h1>
+    <h1><%= link_to I18n.t("hello"), root_path %></h1>
     <p><%= flash[:notice] %></p>
     <div id="user_bar">
       <% if logged_in? %>
