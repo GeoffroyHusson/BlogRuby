@@ -1,10 +1,11 @@
 class UsersController < ApplicationController
+	before_filter :authenticate, :only => [:edit, :update]
 	def new
 		@user = User.new
 	end
 
 	def create
-		@user = User.new(params[:user])
+		@user = User.new(user_params)
 		if @user.save
 			redirect_to articles_path, :notice => 'User successfully added.'
 		else
@@ -12,14 +13,19 @@ class UsersController < ApplicationController
 		end
 	end
 	def edit
-		@user = User.find(params[:id])
+		@user = current_user
 	end
 	def update
-		@user = User.find(params[:id])
+		@user = current_user
 		if @user.update_attributes(params[:user])
 			redirect_to articles_path, :notice => 'Update user information successfully'
 		else
 			render :action => 'edit'
 		end
 	end
+
+	private
+		def user_params 
+			params.require(:user).permit(:email, :password, :password_confirmation)
+		end
 end

@@ -1,6 +1,8 @@
 class ArticlesController < ApplicationController
   # GET /articles
   # GET /articles.xml
+  before_filter :authenticate, :excerpt =>[:index, :show]
+
   def index
     @articles = Article.all
 
@@ -40,7 +42,7 @@ class ArticlesController < ApplicationController
   # POST /articles
   # POST /articles.xml
   def create
-    @article = Article.new(params[:article])
+    @article = Article.new(article_params)
 
     respond_to do |format|
       if @article.save
@@ -59,7 +61,7 @@ class ArticlesController < ApplicationController
     @article = Article.find(params[:id])
 
     respond_to do |format|
-      if @article.update_attributes(params[:article])
+      if @article.update_attributes(article_params)
         format.html { redirect_to(@article, :notice => 'Article was successfully updated.') }
         format.xml  { head :ok }
       else
@@ -80,4 +82,8 @@ class ArticlesController < ApplicationController
       format.xml  { head :ok }
     end
   end
+  private
+    def article_params
+      params.require(:article).permit(:title, :location, :category , :excerpt, :body , :published_at)
+    end
 end
