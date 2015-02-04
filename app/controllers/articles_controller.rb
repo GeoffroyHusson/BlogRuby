@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
   # GET /articles
   # GET /articles.xml
-  before_filter :authenticate, :excerpt =>[:index, :show]
+  before_filter :authenticate, :excerpt =>[:index, :show, :notify_friend]
 
   def index
     @articles = Article.all
@@ -36,13 +36,13 @@ class ArticlesController < ApplicationController
 
   # GET /articles/1/edit
   def edit
-    @article = Article.find(params[:id])
+    @article = current_user.articles.find(params[:id])
   end
 
   # POST /articles
   # POST /articles.xml
   def create
-    @article = Article.new(article_params)
+    @article = current_user.articles.new(params[:article])
 
     respond_to do |format|
       if @article.save
@@ -58,7 +58,7 @@ class ArticlesController < ApplicationController
   # PUT /articles/1
   # PUT /articles/1.xml
   def update
-    @article = Article.find(params[:id])
+    @article = current_user.articles.find(params[:id])
 
     respond_to do |format|
       if @article.update_attributes(article_params)
@@ -74,13 +74,19 @@ class ArticlesController < ApplicationController
   # DELETE /articles/1
   # DELETE /articles/1.xml
   def destroy
-    @article = Article.find(params[:id])
+    @article = current_user.articles.find(params[:id])
     @article.destroy
 
     respond_to do |format|
       format.html { redirect_to(articles_url) }
       format.xml  { head :ok }
     end
+  end
+
+  def notify_friend
+    @article = Article.find(params[:id])
+    Notifier.email_friend(@article, params[:name], params[:email]).deliver
+    redirect_to @article, :notice => "Message envoyé avec succès"
   end
   private
     def article_params

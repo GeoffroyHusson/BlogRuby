@@ -2,12 +2,17 @@ Rails.application.routes.draw do
   devise_for :models
   root :to => "articles#index"
   resources :articles do
+    member do
+      post :notify_friend
+    end
     resources :comments
   end
   resources :users
   resource :session
   get '/login' => "sessions#new", :as => "login"
   get '/logout' => "sessions#destroy", :as => "logout"
+
+  #get "notify_friend/(:id)" => "articles#notify_friend", :as => "notify_friend"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
