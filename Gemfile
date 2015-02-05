@@ -42,7 +42,7 @@ gem 'rails-i18n'
 
 gem 'nokogiri'
 gem 'rack', '~>1.1'
-gem 'rspec', :require => 'spec'
+gem 'rspec' #, :require => 'spec'
 
 # Use postgresql as the database for Active Record
 
