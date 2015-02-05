@@ -59,3 +59,4 @@ gem 'spring',        group: :development
 
 gem 'rails-observers', git: 'https://github.com/rails/rails-observers.git'
 
+gem 'puma' 
