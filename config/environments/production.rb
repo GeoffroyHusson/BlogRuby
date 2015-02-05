@@ -78,3 +78,5 @@ Rails.application.configure do
 
   config.dependency_loading = true
 end
+
+Rails.configuration.active_record.observers << :repository_observer
