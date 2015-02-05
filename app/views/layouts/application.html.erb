@@ -2,31 +2,41 @@
 <html>
 <head>
   <title>Blog</title>
-  <%= stylesheet_link_tag :all %>
+  <%= stylesheet_link_tag "application", media: "all" %>
   <%= javascript_include_tag "application" %>
+
   <%= csrf_meta_tag %>
 </head>
 <body>
-  <div id="header">
-    <h1><%= link_to I18n.t("hello"), root_path %></h1>
-    <%= language_selector %>
-    <div id="user_bar">
-      <% if logged_in? %>
-        <%= link_to I18n.t("New article" ), new_article_path %> |
-        <%= link_to I18n.t("Edit Password"), edit_user_path(current_user) %> |
-        <%= link_to I18n.t("Logout"), logout_path %>
-      <% else %>
-        <%= link_to I18n.t("Login"), login_path %>
-      <% end %>
+  <div class='container'>
+          <div id="header">
+            <h1><%= link_to I18n.t("hello"), root_path , class: 'brand' %></h1>
+            <%= language_selector %>
+          </div>
+          <div class="navbar navbar-static-top">
+          <div class="navbar-inner">
+          <div id="user_bar">
+            <% if logged_in? %>
+            <ul class="nav">
+              <li><%= link_to I18n.t("New article" ), new_article_path %></li> 
+              <li><%= link_to I18n.t("Edit Password"), edit_user_path(current_user) %></li> 
+              <li><%= link_to I18n.t("Logout"), logout_path %></li>
+            </ul>
+            <% else %>
+              <%= link_to I18n.t("Login"), login_path %>
+            <% end %>
+          </div>
+
+      </div>
     </div>
+        <div id="main">
+          <%= content_tag(:p, notice, :class => 'notice') if notice.present? %>
+          <%= content_tag(:p, alert, :class => 'alert') if alert.present? %>
+          <%= yield %>
+        </div>
+        <div id="footer">
+          Pied de page <a href="http://google.com">Google</a>
   </div>
-  <div id="main">
-    <%= content_tag(:p, notice, :class => 'notice') if notice.present? %>
-    <%= content_tag(:p, alert, :class => 'alert') if alert.present? %>
-    <%= yield %>
-  </div>
-  <div id="footer">
-    Pied de page <a href="http://google.com">Google</a>
-  </div>
+</div>
 </body>
 </html>

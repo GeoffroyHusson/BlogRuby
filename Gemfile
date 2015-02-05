@@ -52,10 +52,11 @@ gem 'rspec' #, :require => 'spec'
 # Use postgresql as the database for Active Record
 
 gem 'rails_12factor', group: :production
-gem 'puma'
+#gem 'puma'
 
 gem 'spring',        group: :development
 
 
 gem 'rails-observers', git: 'https://github.com/rails/rails-observers.git'
 
+gem 'bootstrap-sass', '~> 3.2.0'
