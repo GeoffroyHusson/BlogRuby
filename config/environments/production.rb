@@ -77,7 +77,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.dependency_loading = true
-
-  configuration.active_record.observers << :repository_observer
 end
 
