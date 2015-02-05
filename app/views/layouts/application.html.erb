@@ -9,14 +9,14 @@
 <body>
   <div id="header">
     <h1><%= link_to I18n.t("hello"), root_path %></h1>
-    <p><%= flash[:notice] %></p>
+    <%= language_selector %>
     <div id="user_bar">
       <% if logged_in? %>
-        <%= link_to "New Article", new_article_path %> |
-        <%= link_to "Edit Password", edit_user_path(current_user) %> |
-        <%= link_to "Logout", logout_path %>
+        <%= link_to I18n.t("New article" ), new_article_path %> |
+        <%= link_to I18n.t("Edit Password"), edit_user_path(current_user) %> |
+        <%= link_to I18n.t("Logout"), logout_path %>
       <% else %>
-        <%= link_to "Login", login_path %>
+        <%= link_to I18n.t("Login"), login_path %>
       <% end %>
     </div>
   </div>
