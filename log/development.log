@@ -34201,11 +34201,3 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 14:31:01
 
 
 Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 14:31:01 +0100
-
-
-Started GET "/login" for 127.0.0.1 at 2015-02-05 16:13:35 +0100
-  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
-Processing by SessionsController#new as HTML
-  Rendered sessions/new.html.erb within layouts/application (7.0ms)
-  [1m[35mUser Load (2.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
-Completed 200 OK in 2503ms (Views: 2468.6ms | ActiveRecord: 9.0ms)
