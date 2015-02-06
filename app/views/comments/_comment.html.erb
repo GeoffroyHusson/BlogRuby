@@ -1,11 +1,28 @@
-<%= div_for comment do %>
-  <h3>
-    <%= comment.name %> &lt;<%= comment.email %>&gt; said:
-    <% if @article.owned_by? current_user %>
-  	  <span class='actions'>
-   	   <%= link_to 'Delete', [@article, comment], :confirm => 'Are you sure?', :method => :delete %>
-   	 </span>
-   	<% end %>
-  </h3>
-  <%= comment.body %>
-<% end %>
+<div class="media">
+	<div class="col-xs-6 col-md-offset-3">
+	<% if @article.comments.blank? %>
+		<%=  I18n.t("noComment") %>
+	<% else %>
+		<div>
+		<% @article.comments.each do |comment| %>
+		
+		  <div class="media-left">
+		  	<img class="media-object" src="http://t8.ulule.me/vox/528/comment-hacker-photo-profil-facebook-1.jpeg" alt="..." width="50" height="50">
+		  </div>
+		  <div class="media-body">
+	    	<h4 class="media-heading">
+		    	<%= comment.name %> &lt;<%= comment.email %>&gt; <%= I18n.t("said") %>: 
+		    </h4>
+		    	<%= comment.body %>
+		  </div>
+		  <div class="media-footer">
+		  	<div class="text-right">
+		  	  	<% if @article.owned_by? current_user %>
+		   	   		<%= link_to 'Delete', [@article, comment], :confirm => 'Are you sure?', :method => :delete, class: "btn btn-default btn-xs" %>
+		  		<% end %>
+		   	</div>
+		  </div>
+		<% end %>
+	<% end %>
+	</div>
+</div>

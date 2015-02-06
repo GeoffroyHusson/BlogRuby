@@ -6,10 +6,10 @@
     </div>
       <% if article.owned_by? current_user %>
         <div class="col-md-1">
-          <%= link_to I18n.t("Edit"), edit_article_path(article), class: 'btn btn-primary' %>
+          <%= link_to I18n.t("Edit"), edit_article_path(article), class: 'btn btn-info' %>
         </div>
         <div class="col-md-1">
-          <%= link_to "Delete", article ,class: 'btn btn-danger', :confirm => "Are you sure?", :method => :delete %>
+          <%= link_to "Delete", article ,class: 'btn btn-warning', :confirm => "Are you sure?", :method => :delete %>
         </div>
       <% end %>
   </div>

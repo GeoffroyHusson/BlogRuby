@@ -17,15 +17,15 @@ Category.create [{:name => 'programming'},
 					{:name => 'TV'}]
 
 user.articles.create :title => 'Advance Active Record',
-					:body => 'Ceci est le texte du body.'
+					:body => 'Ceci est le texte du body.',
 					:published_at => Date.today
 
 user.articles.create :title => 'Titre que voici',
-					:body => 'Voici le texte il est long long long ou pas ..'
+					:body => 'Voici le texte il est long long long ou pas ..',
 					:published_at => Date.today
 
 user.articles.create :title => 'Encore !',
-					:body => "C''est le dernier."
+					:body => "C''est le dernier.",
 					:published_at => Date.today
 
 					
