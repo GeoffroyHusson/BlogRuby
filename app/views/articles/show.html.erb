@@ -26,8 +26,8 @@
 </p>
 
 
-<%= link_to 'Edit', edit_article_path(@article) %> |
-<%= link_to 'Back', articles_path %>
+<%= link_to I18n.t('Edit'), edit_article_path(@article) %> |
+<%= link_to I18n.t('Back'), articles_path %>
 
 <%= render @article %>
 
@@ -43,7 +43,7 @@
   <%= render @article.comments %>
 </div>
 
-<% link_to "new comment", new_article_comment_path(@article, :format => :js), :remote => true, :id => 'new_comment_link' %>
+<% link_to I18n.t("New comment"), new_article_comment_path(@article, :format => :js), :remote => true, :id => 'new_comment_link' %>
  
 <%= render :file => 'comments/new' %>
       

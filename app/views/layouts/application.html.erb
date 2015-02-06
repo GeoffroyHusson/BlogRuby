@@ -3,29 +3,27 @@
 <head>
   <title>Blog</title>
   <%= stylesheet_link_tag "application", media: "all" %>
- 
-
   <%= csrf_meta_tag %>
 </head>
 <body>
   <div class='container'>
-          <div id="header">
-            <h1><%= link_to I18n.t("hello"), root_path , class: 'brand' %></h1>
-            <%= language_selector %>
-          </div>
-          <div class="navbar navbar-static-top">
-          <div class="navbar-inner">
-          <div id="user_bar">
-            <% if logged_in? %>
-            <ul class="nav">
-              <li><%= link_to I18n.t("New article" ), new_article_path %></li> 
-              <li><%= link_to I18n.t("Edit Password"), edit_user_path(current_user) %></li> 
-              <li><%= link_to I18n.t("Logout"), logout_path %></li>
-            </ul>
-            <% else %>
-              <%= link_to I18n.t("Login"), login_path %>
-            <% end %>
-          </div>
+    <%= language_selector %>
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div id="header">
+                <h1><%= link_to I18n.t("hello"), root_path , class: 'brand' %></h1>
+              </div>
+              <div id="user_bar">
+                <% if logged_in? %>
+                <ul class="nav nav-tabs">
+                  <li><%= link_to I18n.t("New article" ), new_article_path %></li> 
+                  <li><%= link_to I18n.t("Edit Password"), edit_user_path(current_user) %></li> 
+                  <li><%= link_to I18n.t("Logout"), logout_path %></li>
+                </ul>
+                <% else %>
+                  <%= link_to I18n.t("Login"), login_path %>
+                <% end %>
+              </div>
 
       </div>
     </div>

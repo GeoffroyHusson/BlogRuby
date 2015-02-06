@@ -4,6 +4,18 @@ fr:
   New article: "Nouvel article"
   Edit Password: "Editer le mot de passe"
   Logout: "Déconnexion"
+  New user: "Nouvel utilisateur"
+  Back: "Retour"
+  Editing user: "Editer l'utilisateur"
+  Login: "Connexion"
+  or: "ou"
+  New password: "Nouveau mot de passe"
+  Confirm new password: "Confirmation du nouveau mot passe"
+  New comment: "Nouveau commentaire"
+  Edit: "Editer"
+  Published at: "Publié le"
+  Editing article: "Editer l'article"
+  Listing article: "Liste des articles"
   date:
     formats:
       default: "%d/%m/%Y"

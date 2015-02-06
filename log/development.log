@@ -38650,3 +38650,2816 @@ Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:23:53 +010
 
 
 Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:23:53 +0100
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2015-02-06 09:42:42 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  Rendered users/_form.html.erb (746.1ms)
+  Rendered users/edit.html.erb within layouts/application (760.1ms)
+Completed 200 OK in 1007ms (Views: 926.1ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:42:43 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:42:43 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:42:43 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:42:43 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:42:43 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:42:43 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:42:43 +0100
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2015-02-06 09:43:25 +0100
+Processing by ArticlesController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered collection (0.0ms)
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 103ms (Views: 74.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:43:25 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:43:25 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:43:25 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:43:25 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:43:25 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:43:25 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:43:25 +0100
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2015-02-06 09:43:27 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered users/_form.html.erb (3.0ms)
+  Rendered users/edit.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 83ms (Views: 79.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:43:28 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:43:28 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:43:28 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:43:28 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:43:28 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:43:28 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:43:28 +0100
+
+
+Started GET "/?locale=fr" for 127.0.0.1 at 2015-02-06 09:44:32 +0100
+Processing by ArticlesController#index as HTML
+  Parameters: {"locale"=>"fr"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered collection (0.0ms)
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 72ms (Views: 68.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:33 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:33 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:33 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:33 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:33 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:33 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:33 +0100
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2015-02-06 09:44:50 +0100
+Processing by ArticlesController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered collection (0.0ms)
+  Rendered articles/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 83ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:50 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:50 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:50 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:50 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:50 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:50 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:50 +0100
+
+
+Started GET "/logout" for 127.0.0.1 at 2015-02-06 09:44:53 +0100
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 09:44:53 +0100
+Processing by ArticlesController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-02-06 09:44:53 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 66ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:53 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:53 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:53 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:53 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:53 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:53 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:44:53 +0100
+
+
+Started GET "/login" for 127.0.0.1 at 2015-02-06 09:47:26 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:26 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:26 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:27 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:27 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:27 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:27 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:27 +0100
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2015-02-06 09:47:33 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered users/_form.html.erb (0.0ms)
+  Rendered users/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 78ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:33 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:33 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:33 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:33 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:33 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:33 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:33 +0100
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-06 09:47:35 +0100
+Processing by ArticlesController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCategory Load (31.3ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered articles/_form.html.erb (125.0ms)
+  Rendered articles/new.html.erb within layouts/application (125.0ms)
+Completed 200 OK in 203ms (Views: 171.9ms | ActiveRecord: 31.3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:35 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:35 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:35 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:35 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:35 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:35 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:35 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 09:47:37 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  Rendered collection (0.0ms)
+  Rendered articles/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 62ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:38 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:38 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:38 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:38 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:38 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:38 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:47:38 +0100
+
+
+Started GET "/login" for 127.0.0.1 at 2015-02-06 09:53:28 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 797ms (Views: 796.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:29 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:29 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:29 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:30 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:30 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:30 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:30 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-06 09:53:36 +0100
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (15.6ms)
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 92ms (Views: 76.3ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-06 09:53:36 +0100
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (3.0ms)
+  Rendered users/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 86ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:37 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:37 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:37 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:37 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:37 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:37 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:37 +0100
+
+
+Started GET "/login" for 127.0.0.1 at 2015-02-06 09:53:40 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:40 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:40 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:40 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:40 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:40 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:40 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:40 +0100
+
+
+Started GET "/login" for 127.0.0.1 at 2015-02-06 09:53:41 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 74ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:41 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:41 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:42 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:42 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:42 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:42 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:42 +0100
+
+
+Started GET "/session/new?locale=en" for 127.0.0.1 at 2015-02-06 09:53:43 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:43 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:43 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:43 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:43 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:43 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:43 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:43 +0100
+
+
+Started GET "/session/new?locale=fr" for 127.0.0.1 at 2015-02-06 09:53:47 +0100
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:47 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:47 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:47 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:47 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:47 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:47 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:47 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-06 09:53:55 +0100
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (0.0ms)
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 77ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:56 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:56 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:56 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:56 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:56 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:56 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:56 +0100
+
+
+Started GET "/users/new?locale=en" for 127.0.0.1 at 2015-02-06 09:53:59 +0100
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered users/_form.html.erb (5.0ms)
+  Rendered users/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:59 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:53:59 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:54:00 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:54:00 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:54:00 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:54:00 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:54:00 +0100
+
+
+Started GET "/users/new?locale=fr" for 127.0.0.1 at 2015-02-06 09:54:01 +0100
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered users/_form.html.erb (11.0ms)
+  Rendered users/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:54:01 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:54:01 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:54:01 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:54:01 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:54:01 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:54:01 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:54:01 +0100
+
+
+Started GET "/users/new?locale=fr" for 127.0.0.1 at 2015-02-06 09:56:01 +0100
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered users/_form.html.erb (7.0ms)
+  Rendered users/new.html.erb within layouts/application (670.0ms)
+Completed 200 OK in 756ms (Views: 737.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:56:02 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:56:02 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:56:02 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:56:02 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:56:02 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:56:02 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:56:02 +0100
+
+
+Started GET "/users/new?locale=fr" for 127.0.0.1 at 2015-02-06 09:58:01 +0100
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered users/_form.html.erb (7.0ms)
+  Rendered users/new.html.erb within layouts/application (705.0ms)
+Completed 200 OK in 801ms (Views: 783.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:58:02 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:58:02 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:58:02 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:58:02 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:58:02 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:58:02 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:58:02 +0100
+
+
+Started GET "/users/new?locale=fr" for 127.0.0.1 at 2015-02-06 09:59:30 +0100
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered users/_form.html.erb (7.0ms)
+  Rendered users/new.html.erb within layouts/application (689.1ms)
+Completed 200 OK in 786ms (Views: 768.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:59:31 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:59:31 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:59:31 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:59:31 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:59:31 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:59:31 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:59:31 +0100
+
+
+Started GET "/login" for 127.0.0.1 at 2015-02-06 09:59:34 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 09:59:34 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 09:59:34 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 09:59:34 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 09:59:34 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 09:59:34 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 09:59:34 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 09:59:34 +0100
+
+
+Started GET "/users/new?locale=fr" for 127.0.0.1 at 2015-02-06 10:04:16 +0100
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"fr"}
+  Rendered users/_form.html.erb (7.0ms)
+  Rendered users/new.html.erb within layouts/application (675.0ms)
+Completed 200 OK in 773ms (Views: 755.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:17 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:17 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:17 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:17 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:17 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:17 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:17 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:04:22 +0100
+Processing by ArticlesController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-02-06 10:04:22 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:22 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:22 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:22 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:22 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:22 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:22 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:22 +0100
+
+
+Started POST "/session" for 127.0.0.1 at 2015-02-06 10:04:43 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XdzboMXSvUt6ASgSw6p4Of1zGRl2IgP7eggwxCuJ4CU=", "email"=>"test@test.be", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'test@test.be' LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 776ms (Views: 758.1ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:44 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:44 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:44 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:44 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:44 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:44 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:44 +0100
+
+
+Started POST "/session" for 127.0.0.1 at 2015-02-06 10:04:46 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XdzboMXSvUt6ASgSw6p4Of1zGRl2IgP7eggwxCuJ4CU=", "email"=>"test1@test.be", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."email" = 'test1@test.be' LIMIT 1[0m
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 77ms (Views: 73.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:47 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:47 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:47 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:47 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:47 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:47 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:47 +0100
+
+
+Started POST "/session" for 127.0.0.1 at 2015-02-06 10:04:55 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XdzboMXSvUt6ASgSw6p4Of1zGRl2IgP7eggwxCuJ4CU=", "email"=>"test1@test.be", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'test1@test.be' LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 68ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:55 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:55 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:55 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:55 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:55 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:55 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:55 +0100
+
+
+Started GET "/login" for 127.0.0.1 at 2015-02-06 10:04:57 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:58 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:58 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:58 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:58 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:58 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:58 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:04:58 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-02-06 10:05:07 +0100
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (15.6ms)
+  Rendered users/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 76ms (Views: 76.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:07 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:07 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:07 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:07 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:07 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:07 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:07 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-02-06 10:05:16 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XdzboMXSvUt6ASgSw6p4Of1zGRl2IgP7eggwxCuJ4CU=", "user"=>{"email"=>"geoffroy@listminut.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Créer un(e) User"}
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (1.0ms)[0m  SELECT  1 AS one FROM "users"  WHERE LOWER("users"."email") = LOWER('geoffroy@listminut.com') LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  Rendered users/_form.html.erb (4.0ms)
+  Rendered users/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 288ms (Views: 76.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:16 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:16 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:16 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:16 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:16 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:16 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:17 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:05:25 +0100
+Processing by ArticlesController#index as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-02-06 10:05:25 +0100
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 71ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:25 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:25 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:25 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:25 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:25 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:25 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:25 +0100
+
+
+Started POST "/session" for 127.0.0.1 at 2015-02-06 10:05:37 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XdzboMXSvUt6ASgSw6p4Of1zGRl2IgP7eggwxCuJ4CU=", "email"=>"geoffroy@listminut.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."email" = 'geoffroy@listminut.com' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:05:37 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered collection (0.0ms)
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 93ms (Views: 78.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:38 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:38 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:38 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:38 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:38 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:38 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:38 +0100
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-06 10:05:43 +0100
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCategory Load (0.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered articles/_form.html.erb (24.0ms)
+  Rendered articles/new.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 102ms (Views: 92.0ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:43 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:43 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:43 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:43 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:43 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:43 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:43 +0100
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2015-02-06 10:05:44 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered users/_form.html.erb (4.0ms)
+  Rendered users/edit.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 82ms (Views: 78.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:44 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:44 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:44 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:44 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:44 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:44 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:05:44 +0100
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2015-02-06 10:10:48 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  Rendered users/_form.html.erb (4.0ms)
+  Rendered users/edit.html.erb within layouts/application (716.1ms)
+Completed 200 OK in 827ms (Views: 804.0ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:49 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:49 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:49 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:49 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:49 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:49 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:49 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:10:50 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered collection (0.0ms)
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 82ms (Views: 66.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:50 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:50 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:50 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:50 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:50 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:50 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:50 +0100
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-06 10:10:52 +0100
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCategory Load (1.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered articles/_form.html.erb (24.0ms)
+  Rendered articles/new.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 98ms (Views: 89.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:53 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:53 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:53 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:53 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:53 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:53 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:10:53 +0100
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-06 10:13:21 +0100
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCategory Load (1.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered articles/_form.html.erb (738.0ms)
+  Rendered articles/new.html.erb within layouts/application (742.0ms)
+Completed 200 OK in 855ms (Views: 813.0ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:22 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:22 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:22 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:22 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:22 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:22 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:22 +0100
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-06 10:13:25 +0100
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCategory Load (0.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered articles/_form.html.erb (11.0ms)
+  Rendered articles/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 91ms (Views: 87.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:25 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:25 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:25 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:25 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:25 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:25 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:25 +0100
+
+
+Started POST "/articles" for 127.0.0.1 at 2015-02-06 10:13:32 +0100
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XdzboMXSvUt6ASgSw6p4Of1zGRl2IgP7eggwxCuJ4CU=", "article"=>{"title"=>"test", "location"=>"test", "excerpt"=>"test", "body"=>"test", "published_at(3i)"=>"6", "published_at(2i)"=>"2", "published_at(1i)"=>"2015", "published_at(4i)"=>"09", "published_at(5i)"=>"13"}, "commit"=>"Créer un(e) Article"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (271.4ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "excerpt", "location", "published_at", "title", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body", "test"], ["created_at", "2015-02-06 09:13:32.510065"], ["excerpt", "test"], ["location", "test"], ["published_at", "2015-02-06 09:13:00.000000"], ["title", "test"], ["updated_at", "2015-02-06 09:13:32.510065"], ["user_id", 1]]
+  [1m[35m (207.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 838ms (ActiveRecord: 480.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2015-02-06 10:13:33 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_article.html.erb (60.0ms)
+  Rendered articles/_notify_friend.html.erb (3.0ms)
+  [1m[35mComment Load (30.9ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = $1  [["article_id", 1]]
+  Rendered collection (1.0ms)
+  Rendered comments/new.html.erb (21.0ms)
+  Rendered articles/show.html.erb within layouts/application (146.8ms)
+Completed 200 OK in 234ms (Views: 187.0ms | ActiveRecord: 39.8ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:33 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:33 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:33 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:33 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:33 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:33 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:13:33 +0100
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-06 10:15:19 +0100
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCategory Load (1.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered articles/_form.html.erb (10.0ms)
+  Rendered articles/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 81ms (Views: 76.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:20 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:20 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:20 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:20 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:20 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:20 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:20 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:15:21 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_article.html.erb (7.0ms)
+  Rendered articles/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 80ms (Views: 75.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:21 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:21 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:21 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:21 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:21 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:21 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:21 +0100
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2015-02-06 10:15:23 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (6.0ms)
+  Rendered articles/_notify_friend.html.erb (1.0ms)
+  [1m[36mComment Load (1.0ms)[0m  [1mSELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  Rendered collection (1.0ms)
+  Rendered comments/new.html.erb (3.0ms)
+  Rendered articles/show.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 105ms (Views: 96.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:24 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:24 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:24 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:24 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:24 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:24 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:15:24 +0100
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2015-02-06 10:16:06 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."user_id" = $1 AND "articles"."id" = $2 LIMIT 1[0m  [["user_id", 1], ["id", 1]]
+  [1m[35mCategory Load (1.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered articles/_form.html.erb (11.0ms)
+  Rendered articles/edit.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 88ms (Views: 78.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:06 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:06 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:06 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:06 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:06 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:06 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:06 +0100
+
+
+Started GET "/articles/1/edit?locale=en" for 127.0.0.1 at 2015-02-06 10:16:09 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"locale"=>"en", "id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."user_id" = $1 AND "articles"."id" = $2 LIMIT 1  [["user_id", 1], ["id", 1]]
+  [1m[36mCategory Load (1.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered articles/_form.html.erb (13.0ms)
+  Rendered articles/edit.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 87ms (Views: 79.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:09 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:09 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:09 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:09 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:09 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:09 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:09 +0100
+
+
+Started GET "/articles/1/edit?locale=fr" for 127.0.0.1 at 2015-02-06 10:16:10 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"locale"=>"fr", "id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."user_id" = $1 AND "articles"."id" = $2 LIMIT 1[0m  [["user_id", 1], ["id", 1]]
+  [1m[35mCategory Load (1.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered articles/_form.html.erb (13.0ms)
+  Rendered articles/edit.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 101ms (Views: 91.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:10 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:10 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:11 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:11 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:11 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:11 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:11 +0100
+
+
+Started GET "/articles/1/edit?locale=en" for 127.0.0.1 at 2015-02-06 10:16:11 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"locale"=>"en", "id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."user_id" = $1 AND "articles"."id" = $2 LIMIT 1  [["user_id", 1], ["id", 1]]
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered articles/_form.html.erb (12.0ms)
+  Rendered articles/edit.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 95ms (Views: 87.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:12 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:12 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:12 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:12 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:12 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:12 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:16:12 +0100
+
+
+Started GET "/articles/1/edit?locale=en" for 127.0.0.1 at 2015-02-06 10:18:18 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"locale"=>"en", "id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT  "articles".* FROM "articles"  WHERE "articles"."user_id" = $1 AND "articles"."id" = $2 LIMIT 1[0m  [["user_id", 1], ["id", 1]]
+  [1m[35mCategory Load (1.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered articles/_form.html.erb (678.1ms)
+  Rendered articles/edit.html.erb within layouts/application (683.0ms)
+Completed 200 OK in 806ms (Views: 753.0ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:18:19 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:18:19 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:18:19 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:18:19 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:18:19 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:18:19 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:18:20 +0100
+
+
+Started GET "/articles/1/edit?locale=en" for 127.0.0.1 at 2015-02-06 10:19:38 +0100
+Processing by ArticlesController#edit as HTML
+  Parameters: {"locale"=>"en", "id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."user_id" = $1 AND "articles"."id" = $2 LIMIT 1  [["user_id", 1], ["id", 1]]
+  [1m[36mCategory Load (1.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered articles/_form.html.erb (25.0ms)
+  Rendered articles/edit.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 122ms (Views: 112.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:19:39 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:19:39 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:19:39 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:19:39 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:19:39 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:19:39 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:19:39 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:19:40 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mArticle Load (0.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (5.0ms)
+  Rendered articles/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 121ms (Views: 116.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:19:40 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:19:40 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:19:40 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:19:40 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:19:40 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:19:40 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:19:40 +0100
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-06 10:20:02 +0100
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCategory Load (1.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered articles/_form.html.erb (11.0ms)
+  Rendered articles/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 81ms (Views: 75.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:03 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:03 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:03 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:03 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:03 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:03 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:03 +0100
+
+
+Started POST "/articles" for 127.0.0.1 at 2015-02-06 10:20:22 +0100
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XdzboMXSvUt6ASgSw6p4Of1zGRl2IgP7eggwxCuJ4CU=", "article"=>{"title"=>"encore un article", "location"=>"Bruxelles", "excerpt"=>"test", "body"=>"Ceci est mon body", "published_at(3i)"=>"6", "published_at(2i)"=>"2", "published_at(1i)"=>"2015", "published_at(4i)"=>"09", "published_at(5i)"=>"20"}, "commit"=>"Créer un(e) Article"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "articles" ("body", "created_at", "excerpt", "location", "published_at", "title", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["body", "Ceci est mon body"], ["created_at", "2015-02-06 09:20:22.870774"], ["excerpt", "test"], ["location", "Bruxelles"], ["published_at", "2015-02-06 09:20:00.000000"], ["title", "encore un article"], ["updated_at", "2015-02-06 09:20:22.870774"], ["user_id", 1]]
+  [1m[35m (49.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/articles/2
+Completed 302 Found in 65ms (ActiveRecord: 50.9ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2015-02-06 10:20:22 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_article.html.erb (5.0ms)
+  Rendered articles/_notify_friend.html.erb (1.0ms)
+  [1m[35mComment Load (0.0ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = $1  [["article_id", 2]]
+  Rendered collection (0.0ms)
+  Rendered comments/new.html.erb (12.0ms)
+  Rendered articles/show.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 116ms (Views: 105.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:23 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:23 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:23 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:23 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:23 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:23 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:23 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:20:25 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (8.0ms)
+  Rendered articles/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 89ms (Views: 83.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:25 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:25 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:25 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:25 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:25 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:26 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:20:26 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:22:03 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (0.0ms)
+  Rendered articles/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 78ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:22:03 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:22:03 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:22:03 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:22:03 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:22:03 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:22:03 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:22:03 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:22:19 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (0.0ms)
+  Rendered articles/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 78ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:22:19 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:22:19 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:22:19 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:22:19 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:22:19 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:22:19 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:22:19 +0100
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2015-02-06 10:23:24 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_article.html.erb (0.0ms)
+  Rendered articles/_notify_friend.html.erb (0.0ms)
+  [1m[35mComment Load (0.0ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = $1  [["article_id", 2]]
+  Rendered collection (0.0ms)
+  Rendered comments/new.html.erb (0.0ms)
+  Rendered articles/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 94ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:24 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:24 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:24 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:24 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:24 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:24 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:24 +0100
+
+
+Started GET "/articles/2?locale=en" for 127.0.0.1 at 2015-02-06 10:23:27 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"locale"=>"en", "id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_article.html.erb (0.0ms)
+  Rendered articles/_notify_friend.html.erb (0.0ms)
+  [1m[35mComment Load (0.0ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = $1  [["article_id", 2]]
+  Rendered collection (0.0ms)
+  Rendered comments/new.html.erb (0.0ms)
+  Rendered articles/show.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 94ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:27 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:27 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:27 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:27 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:27 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:27 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:28 +0100
+
+
+Started GET "/articles/2?locale=fr" for 127.0.0.1 at 2015-02-06 10:23:28 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"locale"=>"fr", "id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_article.html.erb (0.0ms)
+  Rendered articles/_notify_friend.html.erb (0.0ms)
+  [1m[35mComment Load (0.0ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = $1  [["article_id", 2]]
+  Rendered collection (0.0ms)
+  Rendered comments/new.html.erb (0.0ms)
+  Rendered articles/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 94ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:28 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:28 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:28 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:28 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:28 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:29 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:29 +0100
+
+
+Started GET "/articles/2?locale=en" for 127.0.0.1 at 2015-02-06 10:23:29 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"locale"=>"en", "id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_article.html.erb (0.0ms)
+  Rendered articles/_notify_friend.html.erb (0.0ms)
+  [1m[35mComment Load (0.0ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = $1  [["article_id", 2]]
+  Rendered collection (0.0ms)
+  Rendered comments/new.html.erb (0.0ms)
+  Rendered articles/show.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 131ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:30 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:30 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:30 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:30 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:30 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:30 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:30 +0100
+
+
+Started GET "/articles/2?locale=fr" for 127.0.0.1 at 2015-02-06 10:23:30 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"locale"=>"fr", "id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_article.html.erb (0.0ms)
+  Rendered articles/_notify_friend.html.erb (0.0ms)
+  [1m[35mComment Load (0.0ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = $1  [["article_id", 2]]
+  Rendered collection (0.0ms)
+  Rendered comments/new.html.erb (0.0ms)
+  Rendered articles/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 78ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:30 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:31 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:31 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:31 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:31 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:31 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:31 +0100
+
+
+Started GET "/articles/2?locale=en" for 127.0.0.1 at 2015-02-06 10:23:32 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"locale"=>"en", "id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_article.html.erb (0.0ms)
+  Rendered articles/_notify_friend.html.erb (0.0ms)
+  [1m[35mComment Load (0.0ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = $1  [["article_id", 2]]
+  Rendered collection (0.0ms)
+  Rendered comments/new.html.erb (0.0ms)
+  Rendered articles/show.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 94ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:32 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:32 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:32 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:32 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:32 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:32 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:32 +0100
+
+
+Started GET "/articles/2?locale=fr" for 127.0.0.1 at 2015-02-06 10:23:33 +0100
+Processing by ArticlesController#show as HTML
+  Parameters: {"locale"=>"fr", "id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.0ms)[0m  SELECT  "articles".* FROM "articles"  WHERE "articles"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_article.html.erb (0.0ms)
+  Rendered articles/_notify_friend.html.erb (0.0ms)
+  [1m[35mComment Load (0.0ms)[0m  SELECT "comments".* FROM "comments"  WHERE "comments"."article_id" = $1  [["article_id", 2]]
+  Rendered collection (0.0ms)
+  Rendered comments/new.html.erb (0.0ms)
+  Rendered articles/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 125ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:33 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:33 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:33 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:33 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:33 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:33 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:33 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:23:48 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (0.0ms)
+  Rendered articles/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 78ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:48 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:48 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:48 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:48 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:48 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:48 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:23:48 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:25:33 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (9.0ms)
+  Rendered articles/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 85ms (Views: 79.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:25:33 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:25:33 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:25:34 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:25:34 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:25:34 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:25:34 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:25:34 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:26:40 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/_article.html.erb (36.0ms)
+  Rendered articles/index.html.erb within layouts/application (41.0ms)
+Completed 500 Internal Server Error in 52ms
+
+SyntaxError (C:/Sites/blog/app/views/articles/_article.html.erb:7: syntax error, unexpected ',', expecting =>
+...ass: 'btn btn-danger', article, :confirm => "Are you sure?",...
+...                               ^
+C:/Sites/blog/app/views/articles/_article.html.erb:7: syntax error, unexpected ',', expecting ')'
+...e, :confirm => "Are you sure?", :method => :delete );@output...
+...                               ^):
+  app/views/articles/_article.html.erb:7: syntax error, unexpected ',', expecting =>
+  app/views/articles/_article.html.erb:7: syntax error, unexpected ',', expecting ')'
+  app/views/articles/index.html.erb:7:in `_app_views_articles_index_html_erb__748836284_48366684'
+  app/controllers/articles_controller.rb:9:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (61.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:26:59 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (8.0ms)
+  Rendered articles/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 81ms (Views: 73.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:26:59 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:26:59 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:26:59 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:26:59 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:26:59 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:26:59 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:26:59 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:28:34 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (11.0ms)
+  Rendered articles/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 96ms (Views: 91.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:28:34 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:28:34 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:28:34 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:28:34 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:28:34 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:28:34 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:28:34 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:28:56 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (10.0ms)
+  Rendered articles/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 81ms (Views: 75.0ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:28:57 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:28:57 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:28:57 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:28:57 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:28:57 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:28:57 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:28:57 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:29:22 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (9.0ms)
+  Rendered articles/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 82ms (Views: 76.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:29:23 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:29:23 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:29:23 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:29:23 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:29:23 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:29:23 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:29:23 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:29:25 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (9.0ms)
+  Rendered articles/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 125ms (Views: 119.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:29:25 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:29:25 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:29:25 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:29:25 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:29:25 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:29:25 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:29:25 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:31:38 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (8.0ms)
+  Rendered articles/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 86ms (Views: 81.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:31:38 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:31:38 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:31:38 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:31:38 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:31:38 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:31:38 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:31:38 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:32:59 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (8.0ms)
+  Rendered articles/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 88ms (Views: 81.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:32:59 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:32:59 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:32:59 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:32:59 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:32:59 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:32:59 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:32:59 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:34:23 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (2.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (13.0ms)
+  Rendered articles/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 142ms (Views: 134.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:24 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:24 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:24 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:24 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:24 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:24 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:24 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:34:40 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (9.0ms)
+  Rendered articles/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 86ms (Views: 79.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:40 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:40 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:40 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:40 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:40 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:40 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:40 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:34:43 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (7.0ms)
+  Rendered articles/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 82ms (Views: 76.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:43 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:43 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:43 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:43 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:43 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:43 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:34:43 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:35:05 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (8.0ms)
+  Rendered articles/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 96ms (Views: 89.0ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:35:05 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:35:05 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:35:05 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:35:05 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:35:05 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:35:05 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:35:06 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:40:27 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (8.0ms)
+  Rendered articles/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 134ms (Views: 128.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:40:27 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:40:27 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:40:27 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:40:27 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:40:27 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:40:27 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:40:27 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:41:02 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.9ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (8.0ms)
+  Rendered articles/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 81ms (Views: 75.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:03 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:03 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:03 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:03 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:03 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:03 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:03 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:41:16 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (7.0ms)
+  Rendered articles/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 93ms (Views: 87.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:16 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:16 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:16 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:16 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:16 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:17 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:17 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:41:40 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (8.0ms)
+  Rendered articles/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 92ms (Views: 86.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:40 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:40 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:40 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:40 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:40 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:40 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:40 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:41:42 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (9.0ms)
+  Rendered articles/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 79ms (Views: 73.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:43 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:43 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:43 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:43 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:43 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:43 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:41:43 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:45:19 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (9.0ms)
+  Rendered articles/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 130ms (Views: 123.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:45:19 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:45:19 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:45:19 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:45:19 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:45:19 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:45:19 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:45:19 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:45:52 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (1.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (8.0ms)
+  Rendered articles/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 97ms (Views: 91.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:45:53 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:45:53 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:45:53 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:45:53 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:45:53 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:45:53 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:45:53 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-06 10:46:07 +0100
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mArticle Load (0.0ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered articles/_article.html.erb (0.0ms)
+  Rendered articles/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 78ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:08 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:08 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:08 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:08 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:08 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:08 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:08 +0100
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-06 10:46:10 +0100
+Processing by ArticlesController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mCategory Load (0.0ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered articles/_form.html.erb (31.3ms)
+  Rendered articles/new.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 94ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:10 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:10 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:10 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:10 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:10 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:11 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:11 +0100
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2015-02-06 10:46:11 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered users/_form.html.erb (0.0ms)
+  Rendered users/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 125ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:12 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:12 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:12 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:12 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:12 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:12 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:46:12 +0100
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-06 10:48:25 +0100
+Processing by ArticlesController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered articles/_form.html.erb (15.7ms)
+  Rendered articles/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 78ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:48:25 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:48:26 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:48:26 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:48:26 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:48:26 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:48:26 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:48:26 +0100
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2015-02-06 10:48:27 +0100
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  Rendered users/_form.html.erb (15.6ms)
+  Rendered users/edit.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 62ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 10:48:27 +0100
+
+
+Started GET "/assets/articles.css?body=1" for 127.0.0.1 at 2015-02-06 10:48:27 +0100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 10:48:27 +0100
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2015-02-06 10:48:27 +0100
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2015-02-06 10:48:27 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 10:48:27 +0100
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2015-02-06 10:48:27 +0100

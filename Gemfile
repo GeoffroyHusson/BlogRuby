@@ -52,7 +52,7 @@ gem 'rspec' #, :require => 'spec'
 # Use postgresql as the database for Active Record
 
 gem 'rails_12factor', group: :production
-gem 'puma'
+#gem 'puma'
 
 gem 'spring',        group: :development
 
