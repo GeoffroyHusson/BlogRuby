@@ -61985,3 +61985,27 @@ Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2015-02-09 14:34:27 +0
 
 
 Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-09 14:34:28 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-09 14:43:33 +0100
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mArticle Load (1.0ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered articles/_article.html.erb (15.0ms)
+  Rendered articles/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 172ms (Views: 166.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2015-02-09 14:43:34 +0100
+Processing by ArticlesController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCategory Load (0.0ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered articles/_form.html.erb (39.0ms)
+  Rendered articles/new.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 205ms (Views: 197.0ms | ActiveRecord: 4.0ms)
