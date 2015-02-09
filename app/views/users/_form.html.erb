@@ -22,6 +22,12 @@
     <%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation %>
   </div>
+   <div class="field">
+    <%= f.label :avatar %><br />
+    <%= f.file_field :avatar %>
+    <%= image_tag(@user.avatar_url) if @user.avatar? %>
+    <%= f.hidden_field :avatar_cache %>
+  </div>
   <div class="actions">
     <%= submit_or_cancel(f) %>
   </div>

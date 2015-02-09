@@ -7,11 +7,12 @@
 		<% @article.comments.each do |comment| %>
 		
 		  <div class="media-left">
-		  	<img class="media-object" src="http://t8.ulule.me/vox/528/comment-hacker-photo-profil-facebook-1.jpeg" alt="..." width="50" height="50">
+		  	<%= image_tag(@article.user.avatar_url) if @article.user.avatar? %>
+		  
 		  </div>
 		  <div class="media-body">
 	    	<h4 class="media-heading">
-		    	<%= comment.name %> &lt;<%= comment.email %>&gt; <%= I18n.t("said") %>: 
+		    	<%= comment.name %> &lt;<%= comment.user.email %>&gt; <%= I18n.t("said") %>: 
 		    </h4>
 		    	<%= comment.body %>
 		  </div>

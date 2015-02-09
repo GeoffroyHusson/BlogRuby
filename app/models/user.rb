@@ -11,6 +11,8 @@ class User < ActiveRecord::Base
   validates :email, :uniqueness => { :case_sensitive => false }
   before_save :encrypt_new_password
 
+  mount_uploader :avatar, AvatarUploader
+
   def self.authenticate(email, password)
     user = find_by_email(email)
     return user if user && user.authenticated?(password)

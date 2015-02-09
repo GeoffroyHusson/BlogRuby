@@ -1,9 +1,11 @@
 class CommentsController < ApplicationController
   before_filter :load_article, :except => :destroy
-  before_filter :authenticate, :only => :destroy
+  before_filter :authenticate, :only => [:destroy,:create]
+
  
   def create
     @comment = @article.comments.new(comment_params)
+    @comment.user = current_user
     if @comment.save
       redirect_to @article, :notice => 'Thanks for your comment'
     else
@@ -23,6 +25,6 @@ class CommentsController < ApplicationController
       @article = Article.find(params[:article_id])
     end
     def comment_params
-    	params.require(:comment).permit(:name, :email, :body)
+    	params.require(:comment).permit(:name,  :body)
  	end
 end

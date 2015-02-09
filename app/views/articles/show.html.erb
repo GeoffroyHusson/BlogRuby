@@ -8,8 +8,10 @@
     <h3 class="panel-title">
       <%= @article.title %>
     </h3>
+     <h7> par <%= @article.user.email %> </h7>
   </diV>
   <div class="panel-body">
+    <%= image_tag(@article.user.avatar_url) if @article.user.avatar? %>
       <%= @article.body %>
   </div>
   <div class="panel-footer">

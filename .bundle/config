@@ -1,3 +1,2 @@
 ---
-BUNDLE_BIN: bin
 BUNDLE_WITHOUT: test:development
