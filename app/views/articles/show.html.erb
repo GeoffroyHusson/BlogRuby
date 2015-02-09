@@ -13,6 +13,13 @@
   <div class="panel-body">
     <%= image_tag(@article.user.avatar_url) if @article.user.avatar? %>
       <%= @article.body %>
+
+      <% @article.tags.any? %>
+  <% @article.tags.each do |tag| %>
+  <%= link_to tag.name, tagged_url(:tagged_url => tag.name) %>
+<% end %>
+
+
   </div>
   <div class="panel-footer">
     <div class="pull-left">

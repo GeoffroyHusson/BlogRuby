@@ -7,7 +7,7 @@
 		<% @article.comments.each do |comment| %>
 		
 		  <div class="media-left">
-		  	<%= image_tag(@article.user.avatar_url) if @article.user.avatar? %>
+		  	<%= image_tag(comment.user.avatar_url) if comment.user.avatar? %>
 		  
 		  </div>
 		  <div class="media-body">

@@ -61,3 +61,5 @@ gem 'rails-observers', git: 'https://github.com/rails/rails-observers.git'
 
 
 gem 'carrierwave'
+
+gem 'acts-as-taggable-on', '~> 3.4'

@@ -87,8 +87,17 @@ class ArticlesController < ApplicationController
     Notifier.email_friend(@article, params[:name], params[:email]).deliver
     redirect_to @article, :notice => "Message envoyé avec succès"
   end
+
+  def tagged
+  if params[:tag].present? 
+    @article = Article.tagged_with(params[:tag])
+  else 
+
+  end  
+end
+
   private
     def article_params
-      params.require(:article).permit(:title, :location, :category , :excerpt, :body , :published_at)
+      params.require(:article).permit(:title, :location, :category, :tag_list, :excerpt, :body , :published_at)
     end
 end

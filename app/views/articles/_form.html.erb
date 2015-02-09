@@ -21,8 +21,9 @@
       <%= label_tag dom_id(category), category.name, :class => "check_box_label" %>
     <% end %>
   </div>
-  <div>
-    <%= f.text_field :location %>
+  <div class="field">
+    <%= f.label :tag_list, "Tags (séparés par des virgules)" %><br />
+    <%= f.text_field :tag_list %>
   </div>
   <div class="field">
     <%= f.label :location %><br />
