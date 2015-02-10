@@ -21,6 +21,16 @@
                   <li><%= link_to I18n.t("New article"), new_article_path %></li> 
                   <li><%= link_to I18n.t("Edit Password"), edit_user_path(current_user) %></li> 
                   <li><%= link_to I18n.t("Logout"), logout_path %></li>
+                  <li role="presentation" class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                     Recherche par catégorie <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                      <% Category.all.each do |cat| %>
+                       <li><%= link_to cat.name , search_path(cat.id) %></li>
+                       <% end %>
+                    </ul>
+                </li>
                 </ul>
                 <% else %>
                   <%= link_to I18n.t("Login"), login_path %>
@@ -29,6 +39,7 @@
 
       </div>
     </div>
+
         <div id="main">
           <%= content_tag(:p, notice, :class => 'notice') if notice.present? %>
           <%= content_tag(:p, alert, :class => 'alert') if alert.present? %>

@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   get '/login' => "sessions#new", :as => "login"
   get '/logout' => "sessions#destroy", :as => "logout"
   get 'tagged' => 'articles', :as => 'tagged'
+  get 'search/(:category_id)' => 'articles#search', :as => 'search'
+
 
   #get "notify_friend/(:id)" => "articles#notify_friend", :as => "notify_friend"
 

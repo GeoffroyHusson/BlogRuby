@@ -12,7 +12,7 @@
   </diV>
   <div class="panel-body">
     <%= image_tag(@article.user.avatar_url) if @article.user.avatar? %>
-      <%= @article.body %>
+      <%= @article.body %></br></br>
 
       <% @article.tags.any? %>
   <% @article.tags.each do |tag| %>

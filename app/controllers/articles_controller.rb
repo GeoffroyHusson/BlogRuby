@@ -12,6 +12,10 @@ class ArticlesController < ApplicationController
     end
   end
 
+  def filter
+
+  end
+
   # GET /articles/1
   # GET /articles/1.xml
   def show
@@ -25,7 +29,7 @@ class ArticlesController < ApplicationController
   # GET /articles/new
   # GET /articles/new.xml
   def new
-    @article = Article.new
+    @article = Article.new 
 
     respond_to do |format|
       format.html # new.html.erb
@@ -59,6 +63,7 @@ class ArticlesController < ApplicationController
   def update
     @article = current_user.articles.find(params[:id])
 
+
     respond_to do |format|
       if @article.update_attributes(article_params)
         format.html { redirect_to(@article, :notice => 'Article was successfully updated.') }
@@ -89,15 +94,24 @@ class ArticlesController < ApplicationController
   end
 
   def tagged
-  if params[:tag].present? 
-    @article = Article.tagged_with(params[:tag])
-  else 
+    if params[:tag].present? 
+      @article = Article.tagged_with(params[:tag])
+    else 
 
-  end  
-end
+    end  
+  end
+
+  def search
+    if params[:category_id].present?
+      article = Article.all
+      @article = article.joins(:categories).where("categories.id = ?",params[:category_id])
+        
+    else
+    end
+  end
 
   private
     def article_params
-      params.require(:article).permit(:title, :location, :category, :tag_list, :excerpt, :body , :published_at)
+      params.require(:article).permit(:title, :location, :tag_list, :excerpt, :body , :published_at, :category_ids => [])
     end
 end

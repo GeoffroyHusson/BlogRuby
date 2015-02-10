@@ -1,0 +1,21 @@
+ <% @article.all.each do |article| %>
+  <div class="row">
+    <div class="col-md-10"> 
+     <h3> <%= link_to article.title, article %></h3>
+    </div>
+      <% if article.owned_by? current_user %>
+        <div class="col-md-1">
+          <%= link_to I18n.t("Edit"), edit_article_path(article), class: 'btn btn-info' %>
+        </div>
+        <div class="col-md-1">
+          <%= link_to "Delete", article ,class: 'btn btn-warning', :confirm => "Are you sure?", :method => :delete %>
+        </div>
+      <% end %>
+  </div>
+  <div class="row">
+    <div class="col-xs-6">   
+      <%= simple_format article.body %>
+    </div>
+  </div>
+  <hr>
+  <% end %>
